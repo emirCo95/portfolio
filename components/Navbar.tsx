@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex justify-between items-center bg-coolYellow">
       <Image
-        className="mx-10"
+        className="ml-[10%]"
         src="/logo.png"
         alt="logo"
         width={150}
