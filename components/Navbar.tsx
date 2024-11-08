@@ -10,23 +10,26 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full flex justify-between items-center bg-coolYellow">
-      <Image
-        className="ml-[10%]"
-        src="/logo.png"
-        alt="logo"
-        width={150}
-        height={150}
-      />
+    <nav className=" fixed w-full flex justify-between items-center bg-ashGray z-10 border-b-2 border-black">
+      <Link href={'/'} className="ml-[10%]">
+        <Image
+          className="ml-[10%]"
+          src="/logo.png"
+          alt="logo"
+          width={150}
+          height={150}
+        />
+      </Link>
+
       {menuOpen ? (
         <div className="flex flex-col relative">
           <X className="mr-10 md:hidden" onClick={() => setMenuOpen(false)} />
-          <ul className=" z-10 rounded-md absolute top-20 right-0 w-[200px] h-[500px] flex flex-col justify-between items-center p-10 bg-coolYellow md:hidden">
+          <ul className=" z-10 rounded-md absolute top-20 right-0 w-[200px] h-[500px] flex flex-col justify-between items-center p-10 bg-ashGray md:hidden">
             <li className="">
-              <Link href="#about">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className="">
-              <Link href="#about">Experience</Link>
+              <Link href="/experience">Experience</Link>
             </li>
             <li className="">
               <Link href="#about">Skills</Link>
@@ -44,10 +47,10 @@ const Navbar = () => {
       )}
       <ul className="hidden md:mr-10 md:flex md:justify-between md:items-center md:w-[50%]">
         <li className="hover:text-white hover:bg-black p-2 rounded-md">
-          <Link href="#about">About</Link>
+          <Link href="/about">About</Link>
         </li>
         <li className="hover:text-white hover:bg-black p-2 rounded-md">
-          <Link href="#about">Experience</Link>
+          <Link href="/experience">Experience</Link>
         </li>
         <li className="hover:text-white hover:bg-black p-2 rounded-md">
           <Link href="#about">Skills</Link>

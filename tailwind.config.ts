@@ -11,6 +11,11 @@ const config: Config = {
     extend: {
       colors: {
         coolYellow: '#ffd700',
+        coolGreen: '#d5f7e7',
+        ashGray: '#B5CBB7',
+        cream: '#E4E9B2',
+        teaGreen: '#D2E4C4',
+        battleship: '#818479',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
