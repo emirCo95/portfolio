@@ -6,6 +6,7 @@ import { FaReact } from 'react-icons/fa';
 import { RiNextjsFill } from 'react-icons/ri';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { FaGitAlt } from 'react-icons/fa';
+import { FaFigma } from 'react-icons/fa';
 
 const Page = () => {
   return (
@@ -40,6 +41,10 @@ const Page = () => {
           <div className="h-full w-[150px] flex flex-col justify-center items-center transition duration-500 hover:scale-110">
             <RiTailwindCssFill className="w-full h-[50%] text-blue-400" />
             <span className="font-bold">TailwindCSS</span>
+          </div>
+          <div className="h-full w-[150px] flex flex-col justify-center items-center transition duration-500 hover:scale-110">
+            <FaFigma className="w-full h-[50%] text-black" />
+            <span className="font-bold">Figma</span>
           </div>
           <div className="h-full w-[150px] flex flex-col justify-center items-center transition duration-500 hover:scale-110">
             <FaGitAlt className="w-full h-[50%] text-orange-700" />
