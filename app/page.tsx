@@ -12,7 +12,7 @@ const Home = () => {
             </h1>
           </div>
           <div className="w-full flex justify-center items-center">
-            <h2 className="text-4xl">I'm Emir</h2>
+            <h2 className="text-4xl">I&apos;m Emir</h2>
           </div>
         </div>
       </div>
