@@ -91,6 +91,43 @@ const Page = () => {
           </div>
         </div>
       </div>
+      <div className="w-full flex flex-col md:flex-row justify-evenly items-center mt-10 mb-10 z-0">
+        <div className="z-10 w-full h-[650px] md:h-[300px] flex flex-col md:flex-row justify-center items-center gap-10 bg-teaGreen shadow-md  backdrop-filter backdrop-blur-md bg-opacity-70">
+          <div className="h-full w-[450px] flex flex-col md:flex-row justify-center items-center p-5">
+            <div className="h-full">
+              <Image
+                className="w-full h-full object-cover border-2 border-black"
+                src="/elysium.png"
+                alt="elysium"
+                width={1500}
+                height={1500}
+              />
+            </div>
+          </div>
+          <div className="h-full flex justify-center items-start md:items-center gap-20 md:mb-0">
+            <div className="flex flex-col justify-center items-center gap-5">
+              <BsGlobe className="text-white" size={80} />
+              <Link
+                target="_blank"
+                className="border-2 border-black p-2 hover:text-white"
+                href="https://elysium-photography.netlify.app/"
+              >
+                <span className="text-center">View Live</span>
+              </Link>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-5">
+              <FaGithub className="text-purple-900" size={80} />
+              <Link
+                target="_blank"
+                className="border-2 border-black p-2 hover:text-white"
+                href="https://github.com/emirCo95/elysium_photo_studio"
+              >
+                <span className="text-center">View on Github</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
