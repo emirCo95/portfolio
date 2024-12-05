@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { montserrat, pacifico } from '@/app/ui/fonts';
+import { montserrat } from '@/app/ui/fonts';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
