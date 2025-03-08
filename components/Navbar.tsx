@@ -58,27 +58,27 @@ const Navbar = () => {
       )}
       <ul className="hidden md:mr-10 md:flex md:justify-between md:items-center md:w-[50%]">
         <li
-          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-xl lg:text-2xl xl:text-3xl`}
+          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-lg lg:text-xl xl:text-2xl`}
         >
           <Link href="/">Home</Link>
         </li>
         <li
-          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-xl lg:text-2xl xl:text-3xl`}
+          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-lg lg:text-xl xl:text-2xl`}
         >
           <Link href="/about">About</Link>
         </li>
         <li
-          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-xl lg:text-2xl xl:text-3xl`}
+          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-lg lg:text-xl xl:text-2xl`}
         >
           <Link href="/experience">Experience</Link>
         </li>
         <li
-          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-xl lg:text-2xl xl:text-3xl`}
+          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-lg lg:text-xl xl:text-2xl`}
         >
           <Link href="/skills">Skills</Link>
         </li>
         <li
-          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-xl lg:text-2xl xl:text-3xl`}
+          className={`${montserrat.className} hover:text-white hover:bg-black p-2 text-lg lg:text-xl xl:text-2xl`}
         >
           <Link href="/projects">Projects</Link>
         </li>
