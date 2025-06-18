@@ -12,9 +12,9 @@ const Navbar = () => {
       <div className="hidden md:flex gap-4 px-16 py-4 rounded-full shadow-md dark:text-black dark:bg-white backdrop-blur-2xl">
         <Link href="#home">Home</Link>
         <Link href="#about-me">About Me</Link>
-        <Link href="/experience">Experience</Link>
-        <Link href="/education">Education</Link>
-        <Link href="/my-work">My Work</Link>
+        <Link href="#experience">Experience</Link>
+        <Link href="#education">Skills</Link>
+        <Link href="#my-work">My Work</Link>
       </div>
       <div className="">
         <ModeToggle />
