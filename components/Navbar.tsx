@@ -5,7 +5,7 @@ import { ModeToggle } from './mode-toggle';
 const Navbar = () => {
   return (
     <div className="fixed w-full flex justify-between items-center px-16 md:px-26 py-10">
-      <div className="flex items-center gap-2 p-4  dark:bg-white dark:text-black">
+      <div className="flex items-center gap-2 p-4 dark:text-white">
         <span className="text-xl">Emir</span>
         <div className="w-2 h-2 rounded-full bg-amber-500"></div>
       </div>
