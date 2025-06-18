@@ -3,6 +3,7 @@ import React from 'react';
 import head from '@/assets/head.jpg';
 import { Button } from './ui/button';
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -34,9 +35,13 @@ const Hero = () => {
         </p>
       </div>
       <div className=" flex gap-4">
-        <Button variant="default">about me</Button>
-        <Button variant="outline">
-          view my work <ArrowRight />
+        <Button variant="default" asChild>
+          <Link href="#about-me">about me</Link>
+        </Button>
+        <Button variant="outline" asChild>
+          <Link href="#my-work">
+            view my work <ArrowRight />
+          </Link>
         </Button>
       </div>
     </div>
