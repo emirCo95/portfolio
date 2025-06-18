@@ -6,7 +6,10 @@ import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 text-center p-10">
+    <div
+      id="home"
+      className="flex flex-col items-center justify-center gap-8 text-center p-10"
+    >
       <div className="w-[200px] h-[200px] rounded-full shadow-xl">
         <Image
           className="w-full h-full rounded-full object-cover"
@@ -31,7 +34,7 @@ const Hero = () => {
         </p>
       </div>
       <div className=" flex gap-4">
-        <Button variant="ghost">about me</Button>
+        <Button variant="default">about me</Button>
         <Button variant="outline">
           view my work <ArrowRight />
         </Button>
