@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="flex flex-col items-center justify-center gap-8 text-center p-10"
+      className="flex flex-col items-center justify-center gap-8 text-center p-10 pt-42"
     >
       <div className="w-[200px] h-[200px] rounded-full shadow-xl">
         <Image
